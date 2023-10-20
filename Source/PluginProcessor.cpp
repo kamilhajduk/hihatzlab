@@ -255,7 +255,7 @@ void HiHatzLabAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juc
         if (shouldPlay && sampleIndex < sampleLength)
         {
             // For every audio buffer channel
-            for (int channel = 0; channel < bufferChannels; ++channel)
+            for (int channel = 0; channel < sampleChannels; ++channel)
             {
                 // Get single floating point from sample buffer by position
                 float singleSample = sampleBuffer.getSample(channel, sampleIndex);
