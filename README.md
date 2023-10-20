@@ -61,17 +61,3 @@ Copy the compiled `HiHatzLab.vst3` from `Builds\VisualStudio2022\x64\Debug\VST3\
 For support and feedback, please [submit an issue](https://github.com/kamilhajduk/hihatzlab/issues).
 
 Happy music making! 🎶
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [HiHatzLab VST3 Plugin 🎵](#hihatzlab-vst3-plugin-)
-  - [Features ✨](#features-)
-  - [Key Mapping 🎹](#key-mapping-)
-  - [Requirements 🛠️](#requirements-️)
-  - [Installation 🚀](#installation-)
-  - [How to Use 🎛️](#how-to-use-️)
-  - [Support & Feedback 💬](#support--feedback-)
-
-<!-- /code_chunk_output -->
-
