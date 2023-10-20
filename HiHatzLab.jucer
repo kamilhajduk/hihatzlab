@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="uG4JxF" name="HiHatzLab" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginWantsMidiIn"
+              headerPath="../../vendor/rubberband" displaySplashScreen="1"
+              version="1.0.0" companyName="Kamil Hajduk" companyWebsite="https://github.com/kamilhajduk/hihatzlab"
+              pluginName="HiHatzLab">
+  <MAINGROUP id="E7gubC" name="HiHatzLab">
+    <GROUP id="{9AE50EED-1FF6-8126-FBB5-DE792A7E7A1A}" name="Source">
+      <GROUP id="{B0288C79-EF1D-2C01-8D61-4279B08DB420}" name="GUI">
+        <FILE id="PtOAId" name="Config.h" compile="0" resource="0" file="Source/GUI/Config.h"/>
+        <GROUP id="{54A4FE30-050D-A4DC-8845-159D7E8BFE84}" name="ADSR">
+          <FILE id="wpwZcn" name="ADSRComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/ADSR/ADSRComponent.cpp"/>
+          <FILE id="UtdNbk" name="ADSRComponent.h" compile="0" resource="0" file="Source/GUI/ADSR/ADSRComponent.h"/>
+        </GROUP>
+        <GROUP id="{6943B6EA-C6A2-C94D-FE60-2F91F8A27756}" name="BPM">
+          <FILE id="xQpnAe" name="BPMComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/BPM/BPMComponent.cpp"/>
+          <FILE id="QcSz5e" name="BPMComponent.h" compile="0" resource="0" file="Source/GUI/BPM/BPMComponent.h"/>
+        </GROUP>
+        <GROUP id="{22166F70-9677-1F64-B6B8-51B4F7A39979}" name="File">
+          <FILE id="USvl7C" name="FileComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/File/FileComponent.cpp"/>
+          <FILE id="cDTUt9" name="FileComponent.h" compile="0" resource="0" file="Source/GUI/File/FileComponent.h"/>
+        </GROUP>
+        <GROUP id="{8E259D71-3ABC-100D-8137-65AC1B78DEEA}" name="Filter">
+          <GROUP id="{E38BBC90-82D7-726A-CDF7-18EF6DC9B605}" name="Attachment">
+            <FILE id="vTArCZ" name="TwoPointSliderAttachment.cpp" compile="1" resource="0"
+                  file="Source/GUI/Filter/Attachment/TwoPointSliderAttachment.cpp"/>
+            <FILE id="njl8gv" name="TwoPointSliderAttachment.h" compile="0" resource="0"
+                  file="Source/GUI/Filter/Attachment/TwoPointSliderAttachment.h"/>
+          </GROUP>
+          <FILE id="JXlUvs" name="FilterComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Filter/FilterComponent.cpp"/>
+          <FILE id="LTvY5n" name="FilterComponent.h" compile="0" resource="0"
+                file="Source/GUI/Filter/FilterComponent.h"/>
+        </GROUP>
+        <GROUP id="{522AC228-67DC-9ED5-FD9C-E297473E76B2}" name="Mono">
+          <FILE id="emYFxF" name="MonoComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Mono/MonoComponent.cpp"/>
+          <FILE id="Sf9Fg1" name="MonoComponent.h" compile="0" resource="0" file="Source/GUI/Mono/MonoComponent.h"/>
+        </GROUP>
+        <GROUP id="{1AA3BE25-31D2-7DA2-0624-EA75269F909B}" name="Tune">
+          <GROUP id="{09BB53A8-25D5-872A-DCEF-9530082268DB}" name="Semitone">
+            <FILE id="VCKjLF" name="SemitoneTuneComponent.cpp" compile="1" resource="0"
+                  file="Source/GUI/Tune/Semitone/SemitoneTuneComponent.cpp"/>
+            <FILE id="Lkljum" name="SemitoneTuneComponent.h" compile="0" resource="0"
+                  file="Source/GUI/Tune/Semitone/SemitoneTuneComponent.h"/>
+          </GROUP>
+          <GROUP id="{19FDD4FF-3D44-8E64-58FF-E95BA68877C0}" name="Cent">
+            <FILE id="SmYFjA" name="CentTuneComponent.cpp" compile="1" resource="0"
+                  file="Source/GUI/Tune/Cent/CentTuneComponent.cpp"/>
+            <FILE id="mFv6ru" name="CentTuneComponent.h" compile="0" resource="0"
+                  file="Source/GUI/Tune/Cent/CentTuneComponent.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{C89B17AA-B84B-D4F9-FC69-E5E7E82922FD}" name="Volume">
+          <FILE id="qPuLQA" name="VolumeComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Volume/VolumeComponent.cpp"/>
+          <FILE id="eHTs8m" name="VolumeComponent.h" compile="0" resource="0"
+                file="Source/GUI/Volume/VolumeComponent.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="I71Bgs" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="svPdJD" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="XhOnQA" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="M3y3IS" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{97321C52-8446-4B89-1F1E-4E8656A67380}" name="Resources">
+      <FILE id="BwOSlG" name="export.png" compile="0" resource="1" file="Resources/export.png"/>
+      <FILE id="tNnmpL" name="import.png" compile="0" resource="1" file="Resources/import.png"/>
+      <FILE id="oTdiX2" name="load.png" compile="0" resource="1" file="Resources/load.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" externalLibraries="../../Library/rubberband.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="vendor\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="vendor\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>

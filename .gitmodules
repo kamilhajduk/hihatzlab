@@ -1,0 +1,6 @@
+[submodule "vendor/rubberband"]
+	path = vendor/rubberband
+	url = https://github.com/breakfastquay/rubberband.git
+[submodule "vendor/JUCE"]
+	path = vendor/JUCE
+	url = https://github.com/juce-framework/JUCE.git
