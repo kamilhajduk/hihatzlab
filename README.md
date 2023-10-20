@@ -60,4 +60,8 @@ Copy the compiled `HiHatzLab.vst3` from `Builds\VisualStudio2022\x64\Debug\VST3\
 
 For support and feedback, please [submit an issue](https://github.com/kamilhajduk/hihatzlab/issues).
 
+## Credits 🙌
+
+Special thanks to Florian Mrugalla (Discord: @mrugalla) for assistance and support.
+
 Happy music making! 🎶
