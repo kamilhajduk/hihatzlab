@@ -62,6 +62,6 @@ For support and feedback, please [submit an issue](https://github.com/kamilhajdu
 
 ## Credits 🙌
 
-Special thanks to Florian Mrugalla (Discord: @mrugalla) for assistance and support.
+Special thanks to [Florian Mrugalla](https://github.com/Mrugalla) for assistance and support.
 
 Happy music making! 🎶
