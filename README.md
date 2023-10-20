@@ -45,7 +45,7 @@ Copy the generated `rubberband-library.lib` from `vendor\rubberband\otherbuilds\
 - Select the `Debug` and `x64` environment, then compile the project (Ctrl+Shift+B).
 
 5. **Copy VST3 Plugin:**
-Copy the compiled `HiHatzLab.vst3` from `Builds\VisualStudio2022\x64\Debug\VST3\` and paste it into the VST3 plugins directory (e.g., `C:\Program Files\Common Files\VST3\`).
+Copy the compiled `HiHatzLab.vst3` from `Builds\VisualStudio2022\x64\Debug\VST3\HiHatzLab.vst3\Contents\x86_64-win` and paste it into the VST3 plugins directory (e.g., `C:\Program Files\Common Files\VST3\`).
 
 6. **Integrate with FL Studio:**
 - Launch FL Studio and go to `OPTIONS`.
