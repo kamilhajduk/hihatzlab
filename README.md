@@ -1,4 +1,6 @@
-# HiHatzLab VST3 Plugin 🎵
+# HiHatzLab: FL Studio VST3 Plugin
+
+![HiHatzLab](/Docs/screenshot.jpg "HiHatzLab")
 
 HiHatzLab is a powerful open-source VST3 plugin for FL Studio that allows you to manipulate sample pitch, control time signatures, and much more in real-time.
 Plugin utilizes the open-source [RubberBand](https://github.com/breakfastquay/rubberband) library for pitch manipulation and [JUCE](https://github.com/juce-framework/JUCE) framework.
@@ -63,5 +65,3 @@ For support and feedback, please [submit an issue](https://github.com/kamilhajdu
 ## Credits 🙌
 
 Special thanks to [Florian Mrugalla](https://github.com/Mrugalla) for assistance and support.
-
-Happy music making! 🎶
